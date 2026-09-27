@@ -52,18 +52,18 @@ def play_game():
             elif guess < secret_number:
                 min_allowed = guess + 1
                 attempts += 1
-                print('Too low bro, Try Again')
+                print("Too low bro, Try gettin' higher Try Again")
             elif guess > secret_number:
                 max_allowed = guess - 1
                 attempts += 1
-                print('too high my friend, Try Again')
+                print('Too high my friend, Tranquillo Try Again')
             elif guess == secret_number:
                 print('Congets Bro, Next Round....FIGHT!')
                 round += 1
             break
         if attempts == 3:
-            print('Game Over!! You ran out of attempts, Sorry!')  
-            play_again = input('Would you like to play again? (y/n): ')
+            print('Game Over!! Kick rocks Kid.. outta tries..')  
+            play_again = input('Wanna play again? (y/n): ')
             if play_again.lower() == 'y':
                 round = 1
             break   
@@ -91,18 +91,18 @@ def play_game():
             elif guess < secret_number:
                 min_allowed = guess + 1
                 attempts += 1
-                print('Too low bro, Try Again')
+                print("Too low bro, Try gettin' higher Try Again")
             elif guess > secret_number:
                 max_allowed = guess - 1
                 attempts += 1
-                print('too high my friend, Try Again')
+                print('Too high my friend, Tranquillo Try Again')
             elif guess == secret_number:
                 print('Congets Bro, Next Round....FIGHT!')
                 round += 1
             break
         if attempts == 3:
-            print('Game Over!! You ran out of attempts, Sorry!')
-            play_again = input('Would you like to play again? (y/n): ')
+            print('Game Over!! Kick rocks Kid.. outta tries..')  
+            play_again = input('Wanna play again? (y/n): ')
             
               
             break
@@ -129,20 +129,20 @@ def play_game():
             elif guess < secret_number:
                 min_allowed = guess + 1
                 attempts += 1
-                print('Too low bro, Try Again')
+                print("Too low bro, Try gettin' higher Try Again")
             elif guess > secret_number:
                 max_allowed = guess - 1
                 attempts += 1
-                print('too high my friend, Try Again')
+                print('Too high my friend, Tranquillo Try Again')
             elif guess == secret_number:
                 print('Congets Bro, You Win BIG TIME!!')
-                play_again = input('Would you like to play again? (y/n): ')
+                play_again = input('Wanna play again? (y/n): ')
                 
                     
             
         if attempts == 3:
-            print('Game Over!! You ran out of attempts, Sorry!')
-            play_again = input('Would you like to play again? (y/n): ')
+            print('Game Over!! Kick rocks Kid.. outta tries..')
+            play_again = input('Wanna play again? (y/n): ')
 
 
     return play_again
@@ -152,5 +152,5 @@ while True :
     if play_again == 'y':
        play_again = play_game()
     else:
-        print('Thanks for playing, Goodbye!')
+        print('Nobody likes a quitter...Peace Out!!')
         break
