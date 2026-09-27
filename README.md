@@ -1,8 +1,11 @@
-# Leo's Unbelievably Good Guessing Game ~ PythonStyle
+# Leo's Unbelievably Good Guessing Game ~ PythonStyle v.3.0
 
- The same simple/extroadinary guessing game that I created while practicing bash scripting, well, I have replicated that using python. Or as I like to say, PythonStyle.
+ Updated Version!!  PythonStyle, of course. Getting more familiar with python.
 
 ## Features
+ NEW FEATURES !!
+- 3 rounds that get increaasingly more difficult
+- Loop to allow the player to continue
 
 - Generates a random secret number from 1-10
 - It only allows the player an unforgiving 3 attempts
